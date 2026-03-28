@@ -1,41 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Portfólio - Benilson Benito</title>
+
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <a href="#" class="logo">bbenito</a>
 
-        <nav>
-            <a href="#" class="activo">Home</a>
-            <a href="#" class="activo">Skills</a>
-            <a href="#" class="activo">Education</a>
-            <a href="#" class="activo">Experience</a>
-            <a href="#" class="activo">Contact</a>
-        </nav>
-    </header>
-    <section class="home">
-        <div class="home-img">
-            <img src="bb.jpg" alt="" width="800" height="800">
+<header>
+    <a href="#" class="logo">Benilson</a>
+
+    <nav>
+        <a href="#" class="active">Início</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#education">Educação</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section class="home">
+
+    <div class="home-img">
+        <img src="bb.png" alt="Benilson Benito">
+    </div>
+
+    <div class="home-content">
+
+        <h1>Olá, eu sou <span>Benilson Benito</span></h1>
+
+        <h3>Desenvolvedor em construção</h3>
+
+        <p>
+            Sou estudante da <strong>Escola 42</strong>, apaixonado por tecnologia e desenvolvimento de software.
+            Estou em constante evolução como programador, focado em aprender boas práticas, lógica e desenvolvimento profissional.
+        </p>
+
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
 
-        <div class="home-content">
-            <h1>Hi, it's <span>Benilson Benito</span></h1>
-            <h3 class="typing-text">I'm a <span>program</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora libero ad incidunt non sed ut dicta, quis rem animi explicabo iure, reiciendis quaerat, ex omnis molestiae minima optio minus quae?</p>
-            <div class="social-icons">
-                <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"> <i class="fa-brands fa-github"></i></a>
-                <a href="#"> <i class="fa-brands fa-x"></i></a>
-                <a href="#"> <i class="fa-brands fa-facebook"></i></a>
-            </div>
-            <a href="#">Hire me</a>
-        </div>
-    </section>
+        <a href="#" class="btn">Contratar-me</a>
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Habilidades</h2>
+
+    <p><strong>Frontend:</strong> HTML, CSS, TailwindCSS, JavaScript (DOM)</p>
+
+    <p><strong>Backend:</strong> Python, Django Framework</p>
+
+    <p><strong>Base de Dados:</strong> PostgreSQL</p>
+
+    <p><strong>DevOps:</strong> Docker</p>
+
+    <p><strong>Programação Orientada a Objetos (POO):</strong> Classes, objetos, encapsulamento, herança e boas práticas de código limpo</p>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+    <h2>Educação</h2>
+
+    <p>
+        Estudante na <strong>Escola 42</strong>, onde desenvolvo pensamento lógico, resolução de problemas e projetos práticos de programação.
+    </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contacto</h2>
+
+    <p>Email: benilson@email.com</p>
+</section>
+
 </body>
 </html>
